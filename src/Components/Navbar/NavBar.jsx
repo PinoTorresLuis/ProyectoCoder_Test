@@ -6,8 +6,10 @@ import iconoWP from '../../assets/imgWP.png'
 import FlagEspain from '../../assets/Banderas/spain.png';
 import FlagUnited from '../../assets/Banderas/unitedK.png';
 import React, { useContext} from 'react';
-import Logo from '../../assets/Logo.png';
+import {FormattedMessage} from 'react-intl';
 import { LangContext } from '../Context/langContext';
+
+import Logo from '../../assets/Logo.png';
 
 import './_navbar.scss';
 
@@ -25,9 +27,12 @@ const NavBar = () => {
           <Nav className="me-end">
             <div className='container_nav_link'>
             <Nav.Link className='text_nav' href="https://wa.me/+34635282005?texto=Hola%20IT%20Work%20necesito%20información"><img className='wp_logo' src= {iconoWP} alt=""/>Whatsapp</Nav.Link>
-            <Nav.Link  className='text_nav'>Idioma</Nav.Link> 
+            <Nav.Link  className='text_nav'><FormattedMessage
+              id='idioma.texto'
+              defaultMessage="Idioma"
+              />
+            </Nav.Link> 
             <NavDropdown  id="navbarScrollingDropdown">
-           
               <NavDropdown.Item  className='drop_container' href="#action3"> 
               <button onClick={() => establecerLenguaje('es-ES')}><img className='img_flag' src= {FlagEspain} /></button>
               </NavDropdown.Item>
