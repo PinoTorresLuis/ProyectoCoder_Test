@@ -63,8 +63,8 @@ const Pilares = () => {
 
             <button data-aos="flip-down" className='btn_solicitar' onClick={()=> setForm(true)}>
             <FormattedMessage
-            id="pilares.btn"
-            defaultMessage= "Solicitar"
+            id="btn_info"
+            defaultMessage= "Más Info"
             />
             </button>
 

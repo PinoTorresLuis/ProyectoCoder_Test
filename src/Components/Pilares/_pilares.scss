@@ -49,13 +49,12 @@
             background-color: #303450;
             color: white;
             font-family: "JuliaMono";
-            text-shadow: -1px 1px 0 rgba(185, 185, 185, 0.882);
             border-radius: 1.25rem;
             padding: 0.625rem;
             position: relative;
             margin-bottom: 0.625rem;
-            outline: 2px solid white;
-            outline-offset: 2px;     
+            outline: 3px solid rgb(197, 197, 197);
+            outline-offset: 1px;     
             overflow: hidden;  
          }
         }
@@ -130,20 +129,26 @@
 //EFECTO BOTÓN SOLICITAR INFO
 .btn_solicitar::after {
 	content: "";
-	width: 100%;
+	width: 1px;
+	height: 1px;
+	background: none;
 	position: absolute;
 	z-index: -1;
-	top: 0;
-	left: calc(-100% - 80px);
-	border-bottom: 65px solid  #828dd9bb;
-	border-right: 0px solid transparent;
-	transition: .4s ease-in-out all;
+	top: 50%;
+	left: 50%;
+	transition: .3s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
 }
 
 .btn_solicitar:hover::after {
-	left: 0;
+	transform: scale(500);
+	background: #494d68;
 }
-
+.btn_solicitar> .title_about:hover {
+    color: white;
+    transition: .4s all;
+}
 
 //EFECTO BOTÓN SOLICITAR INFO
 

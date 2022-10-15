@@ -1,6 +1,8 @@
 import React from 'react';
 import Cohete from '../../assets/Personas/personas_cohete.png'
 import LogoIt from '../../assets/Logo.png';
+import {motion} from 'framer-motion';
+
 import {FormattedMessage} from 'react-intl';
 
 import './_intercambiabilidad.scss';
@@ -8,7 +10,16 @@ import './_intercambiabilidad.scss';
 const CardUs = () => {
   return (
     <div className='socios_texto'>
-    <img data-aos="fade-right" className='img_socios' src= {Cohete} alt="socios"/>
+    <motion.img initial = {{y: -5}}
+          animate = {{
+            y:5,
+            transition:{
+              duration: 2,
+              ease:"easeIn",
+              repeat: Infinity,
+              repeatType: "reverse"
+            },
+          }} data-aos="fade-right" className='img_socios' src= {Cohete} alt="socios"/>
     <div data-aos="fade-left" className='text_socios_container'> 
         <h1>
         <FormattedMessage

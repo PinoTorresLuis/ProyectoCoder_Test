@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {motion} from 'framer-motion';
 import {FormattedMessage} from 'react-intl';
 import Socios from '../../assets/Personas/3socios@250x 1.png';
 import './_intercambiabilidad.scss';
@@ -10,7 +10,16 @@ const CardSocios = () => {
 
   return (
     <div className='socios_texto'>
-    <img  data-aos="fade-down" className='img_socios' src= {Socios} alt="socios"/>
+     <motion.img initial = {{y: -5}}
+          animate = {{
+            y:5,
+            transition:{
+              duration: 2,
+              ease:"easeIn",
+              repeat: Infinity,
+              repeatType: "reverse"
+            },
+          }}  data-aos="fade-down" className='img_socios' src= {Socios} alt="socios"/>
        <div  data-aos="fade-up" className='text_socios_container'> 
         <h1>
         <FormattedMessage
