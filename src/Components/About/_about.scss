@@ -280,7 +280,7 @@ align-items: center;
 
 @media (max-width:576px) {
     .section_container_grid {
-     
+        width: 100%;
         align-items: center;
         
             .class_title_h1{
@@ -303,7 +303,7 @@ align-items: center;
             .img_socios {
                 display: none;
             }
-        
+           
             p {
                
                 grid-column: 2/11;
@@ -321,6 +321,11 @@ align-items: center;
             }
     
         }
+}
+
+.img_socios_mvp {
+    width: 100%;
+    height: 20rem;
 }
 }
 

@@ -71,6 +71,8 @@ min-height: 100vh;
 
 @media (max-width:976px){
   .App {
+  grid-template-columns:minmax(250px,auto);
+  grid-template-rows: minmax(250px,1fr);
   grid-template: 
   "btn    btn"
   "navBar navBar"

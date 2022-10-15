@@ -12,6 +12,7 @@
     visibility: visible;
     bottom: 1.25rem;
     right: 0.9375rem;
+    margin-right: 0.625rem;
     opacity: 1;
     z-index: 100000;
     transition: .3s ease-in-out all;
@@ -128,9 +129,9 @@
     }
     
     .container_show_btn{
-        flex-direction: row;
+        flex-direction: column;
         bottom: 0;
-        right:1.25rem;
+        margin-right:1.6rem;
         align-items: center;
         justify-content: center;
             
@@ -148,14 +149,14 @@
         font-size: 0.8rem;
         letter-spacing: 1px;
         color: white;
-        border-radius: 20px;
-        padding: 10px;
-        margin-bottom: 10px;
+        border-radius: 1.25rem;
+        padding: 0.625rem;
+        margin-bottom: 0.0625rem;
         opacity: 1;
         cursor: pointer;
-        outline: 2px solid white;
-        outline-offset: 2px;
-        filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
+        outline: 0.125rem solid white;
+        outline-offset: 0.125rem;
+        filter: drop-shadow(0.625rem 0.625rem 0.625rem rgba(0, 0, 0, 0.525));
     }
 }
 }

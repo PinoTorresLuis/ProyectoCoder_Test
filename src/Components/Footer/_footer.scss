@@ -133,6 +133,10 @@
     background-image: url("../../assets/fondofooter.png");
     background-color: #303450;
      
+    h1 {
+        padding-top: 0.625rem;
+    }
+
         .footer_sedes{
            grid-column: 1/4;
            display: flex;

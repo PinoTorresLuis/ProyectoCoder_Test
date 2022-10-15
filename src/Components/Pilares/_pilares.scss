@@ -269,11 +269,9 @@ background: #252a50;
     font-family: var(--font-franklin);
 }
 
-@media (max-width:700px) {
+@media (max-width:976px) {
     .article_container_grid {
-        background-color: #fafffd2a;    
-        display: grid;
-        max-width: 1200px;
+
         grid-template-columns: repeat(12, 1fr);
         justify-content: center;
         text-align: center;
@@ -285,7 +283,7 @@ background: #252a50;
             padding-left: 0.625rem;
             grid-column: 1/-1;
             font-weight: 500;
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
         
         .container_pilar_info{
@@ -300,15 +298,42 @@ background: #252a50;
             background-color: #fafffd2a;
     
             .img_pilar_circulo {
-                width: 28.125rem;
-                height:  28.125rem;
+                width: 25rem;
+                height:  25rem;
                 
             }
-            .img_persona {
-                display: none;
+            .btn_pilares_produ {
+                padding: 0.625rem;
+                top: 2rem;
+                left: 11rem;
+ 
+            }
+            .btn_pilares_info {
+                padding: 0.625rem;
+                top: 9rem;
+                left: 1rem;
+
+            }
+            .btn_pilares_cliente {
+                padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+                top: 12.125rem;
+                right: 1.5rem;
+  
+            }
+            .btn_pilares_cono {
+                right: 11rem;
+                bottom: 17rem;
+
             }
         }
     }
+        
 }
 }
 
+@media (max-width:816px) {
+    .img_persona {
+        display: none;
+    }
+
+}
