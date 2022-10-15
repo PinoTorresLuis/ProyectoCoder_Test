@@ -5,7 +5,16 @@
     background-color: rgb(255, 255, 255);
     margin-bottom: 50px;
 
-
+    .carousel-control-prev{
+        display: flex;
+        width: 10%;
+        text-align: center;
+    }
+    .carousel-control-next {
+        display: flex;
+        width: 10%;
+        text-align: center;
+    }
     .container_texto {
         color: white;
         position: absolute;
@@ -38,23 +47,23 @@
     }
 }
 
-
-
-
 .d-block{
     width: 90%;
     height: 34.375rem;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+
 }
 .carousel-control-prev-icon{
     opacity: 1;
     background-color: #72CDE2;
+    
 }
 .carousel-control-next-icon {
     opacity: 1;
     background-color: #72CDE2;
+    
 }
 
 
@@ -101,6 +110,17 @@
         background-color: rgb(255, 255, 255);
         width: 100%;
         
+        .carousel-control-prev{
+            display: flex;
+            width: 5%;
+            text-align: center;
+        }
+        .carousel-control-next {
+            display: flex;
+            width: 5%;
+            text-align: center;
+        }
+
         .d-block{
             width: 95%;
             align-items: center;

@@ -337,3 +337,79 @@ background: #252a50;
     }
 
 }
+
+
+@media (max-width:730px) {
+    .article_container_grid {
+
+        grid-template-columns: repeat(12, 1fr);
+        justify-content: center;
+        text-align: center;
+        
+        
+        .container_pilar_info{
+        grid-column: 6/6;
+    
+        .container_info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: #fafffd2a;
+    
+
+            .btn_pilares_cono {
+                right: 11rem;
+                bottom: 16.5rem;
+
+            }
+        }
+    }
+        
+}
+}
+
+@media (max-width:576px) {
+    
+.container_img_logo_pilar {
+    display: flex;
+    width: 98%;
+    height: 15.625rem;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+    .img_pilar_produ {
+        width: 15rem;
+        left: 1.875rem;
+        position: absolute;
+        top:0.0625rem;
+    }
+    .img_pilar_info{
+        width: 18rem;
+        left: 0.625rem;
+        position: absolute;
+        top:0.0625rem;
+    }
+    .img_pilar_cliente{
+        width: 20rem;
+        left: -1rem;
+        top: 0rem;
+        position: absolute;
+    }
+    .img_pilar_conocimiento{
+        width: 18rem;
+        left: 2.5rem;
+        top: -1.25rem;
+        position: absolute;
+    }
+    .img_pilar_svg {
+        width:5rem;
+        right: -1.8rem;
+        bottom: -1.3rem;
+        position: absolute;
+    }
+
+}
+}

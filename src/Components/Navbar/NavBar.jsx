@@ -23,9 +23,11 @@ const NavBar = () => {
             <img className='img-logo' src= {Logo} alt="logo"/>
           </Navbar.Brand>
           <Nav className="me-end">
-            
+            <div className='container_nav_link'>
             <Nav.Link className='text_nav' href="https://wa.me/+34635282005?texto=Hola%20IT%20Work%20necesito%20información"><img className='wp_logo' src= {iconoWP} alt=""/>Whatsapp</Nav.Link>
-            <NavDropdown title ="idioma" id="navbarScrollingDropdown">
+            <Nav.Link  className='text_nav'>Idioma</Nav.Link> 
+            <NavDropdown  id="navbarScrollingDropdown">
+           
               <NavDropdown.Item  className='drop_container' href="#action3"> 
               <button onClick={() => establecerLenguaje('es-ES')}><img className='img_flag' src= {FlagEspain} /></button>
               </NavDropdown.Item>
@@ -33,6 +35,7 @@ const NavBar = () => {
               <button onClick={() => establecerLenguaje('en-US')}><img className='img_flag' src= {FlagUnited}/></button>
               </NavDropdown.Item>
            </NavDropdown>
+           </div>
           </Nav>
         </Container>
       </Navbar>
