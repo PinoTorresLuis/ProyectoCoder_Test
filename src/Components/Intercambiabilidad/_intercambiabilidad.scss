@@ -1,0 +1,30 @@
+.socios_texto {
+ 
+    background-color: white;
+ 
+
+    .text_socios_container{
+        grid-column: 6/11;
+
+    h1 {
+        text-align: center;
+        color: #303450;
+    }   
+
+}
+
+p {
+    align-items: end;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: justify;
+    font-weight: 600;
+   
+}
+.img_logo_us{
+    width: 15.625rem;
+    padding-top: 0.625rem;
+
+}
+}

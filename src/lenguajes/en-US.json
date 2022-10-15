@@ -1,0 +1,42 @@
+{
+	"main_title_conocimiento":"Knowledge_",
+	"main_texto_conocimiento": "We are interested in your learning, we have technical and practical training so you can implement it in your business.",
+
+	"main_title_cliente":"Client_",
+	"main_texto_cliente":"We want you to do well, that's why we focus on increasing the quantity and quality of your clients so that you find economic and financial freedom.",
+
+	"main_title_informacion":"Information_",
+	"main_texto_informacion":"We take care that valuable information is organized, minimizing the margin of error in decision making.",
+
+	"main_title_productividad": "Productivity_",
+	"main_texto_productividad":"We make your business more efficient, optimizing time so that you can dedicate yourself fully to what you really know how to do.",
+
+	"app.about": "IT Work It is a startup created by 3 friends and former colleagues from Microsoft who, after 25 years of professional development, each within their specialty (marketing and sales, technology and management), saw that many of the problems they faced during so many years are the same ones that hundreds of companies, businesses and freelancers face daily, and they believe that joining efforts and knowledge can make these companies avoid problems related to low productivity, little information to make good decisions, the lack of clients or links with them, and the lack of knowledge of the technology available to achieve the success of their businesses in the digital age. Each of IT work's partners has been in that situation, understands the cost of not solving those problems and the benefits of solving them, that's why they were able to achieve their goals, and they are willing to do the same for your business.",
+	"app.history" : "We are a technology company made up of specialists in technology (IT), customer service, marketing and strategy; We have more than 25 years of work in the industry that allows us to accompany you in the identification and development of digital solutions, guaranteeing you a great experience.Our goal is to help our customers.",
+	"about.us": "US",
+	"about.title_socios": "Our history",
+	"about.title_us": "Us",
+	"about.btn_history": "HISTORY",
+	"about.MPV": "MVP", 
+
+
+	"pilares.title": "Our 4 pillars",
+	"pilares.subtitle": "Looking for more information?",
+	"pilares.info": "Take the opportunity to request free personalized information for your business",
+	"pilares.btn": "Apply for",
+
+	"modal.title_produ": "Productivity",
+	"modal.texto_produ": "The organization in a company is the main for its success.IT Work has the best tools so you can simplify and optimize tasks and processes related to the office and IT.",
+	
+	"modal.title.cliente": "Client",
+	"modal.texto.cliente": "Nowadays it is very important to be present in the digital world, that is why at IT work we offer you digital marketing services and customer service to accompany you throughout the process.",
+
+	"modal.title.info": "Information",
+	"modal.texto.info":"All the information of your company is valuable, from our part we will try to optimize and organize it so as not to miss any detail and improve decision-making with the best Data Management services. Our premise is what is not measured cannot be improved",
+
+	"modal.title.conocimiento": "Knowledge",
+	"modal.texto.conocimiento": "We are present in your personal growth and in that of your company. That is why we offer you the possibility of training yourself in the services provided by IT work and also in software tools, applications and processes used in the provision of services.",
+	
+	"footer.title": "Contact us"
+
+}

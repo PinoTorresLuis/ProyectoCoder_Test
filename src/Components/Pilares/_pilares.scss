@@ -1,0 +1,314 @@
+.article_container_grid {
+    background-color: #fafffd2a;    
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 3.125rem;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    text-align: center;
+    
+
+    h1 {
+        color: #303450;
+        text-align: start;
+        padding-left: 0.625rem;
+        grid-column: 1/-1;
+        font-weight: 500;
+        font-size: 2rem;
+        font-family: "JuliaMono";
+    }
+    
+    .container_pilar_info{
+    grid-column: 6/6;
+
+    .container_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #fafffd2a;
+
+        .img_pilar_circulo {
+            width: 28.125rem;
+            height:  28.125rem;
+            
+        }
+
+        h2 {
+            padding-top: 1.25rem;
+            font-family: "JuliaMono";
+            color:#303450;
+        }
+        .btn_solicitar {
+            font-size: 1.3rem;
+            letter-spacing: 2px;
+            z-index: 2;
+            background-color: #303450;
+            color: white;
+            font-family: "JuliaMono";
+            border-radius: 1.25rem;
+            padding: 0.625rem;
+            position: relative;
+            margin-bottom: 0.625rem;
+            outline: 2px solid white;
+            outline-offset: 2px;     
+            overflow: hidden;  
+         }
+        }
+
+     .img_persona {
+        width: 12.5rem;
+        left:-200px;
+        top: 18.75rem;
+        position: absolute;
+    }
+
+    .btn_pilares_produ {
+        position: absolute;
+        background-color: #303450bb;
+        color: white;
+        border-radius: 1.25rem;
+        padding: 0.625rem;
+        top: 2.5rem;
+        left: 11.875rem;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .btn_pilares_info {
+        position: absolute;
+        background-color: #303450bb;
+        color: white;
+        border-radius: 1.25rem;
+        padding: 0.625rem;
+        top: 10.625rem;
+        left: 1.875rem;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .btn_pilares_cliente {
+        position: absolute;
+        background-color: #303450bb;
+        color: white;
+        border-radius: 1.25rem;
+        padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+        top: 13.125rem;
+        right: 2.1875rem;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .btn_pilares_cono {
+        position: absolute;
+        background-color: #303450bb;
+        color: white;
+        border-radius: 1.25rem;
+        padding: 0.625rem;
+        right: 12.5rem;
+        bottom: 17.5rem;
+        overflow: hidden;
+        z-index: 2;
+    }
+    p {
+        font-family: var(--font-franklin);
+        font-weight: 600;
+    }
+    }
+
+}
+//EFECTO BOTÓN SOLICITAR INFO
+.btn_solicitar::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 65px solid  #828dd9bb;
+	border-right: 0px solid transparent;
+	transition: .4s ease-in-out all;
+}
+
+.btn_solicitar:hover::after {
+	left: 0;
+}
+
+
+//EFECTO BOTÓN SOLICITAR INFO
+
+        .btn_pilares_produ::after {
+            content: "";
+            width: 1px;
+            height: 1px;
+            background: none;
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            transition: .3s ease-in-out all;
+            border-radius: 100px;
+            transform-origin: center;
+}
+.btn_pilares_produ:hover::after {
+	transform: scale(500);
+	background: #252a50;
+}
+
+.btn_pilares_info::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+}
+.btn_pilares_info:hover::after {
+transform: scale(500);
+background: #252a50;
+}
+
+.btn_pilares_cono::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+}
+.btn_pilares_cono:hover::after {
+transform: scale(500);
+background: #252a50;
+}
+
+.btn_pilares_cliente::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+}
+.btn_pilares_cliente:hover::after {
+transform: scale(500);
+background: #252a50;
+}
+
+
+.container_img_logo_pilar {
+    display: flex;
+    width: 100%;
+    height: 15.625rem;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+    .img_pilar_produ {
+        width: 15.625rem;
+        left: 1.875rem;
+        position: absolute;
+        top:0.0625rem;
+    }
+    .img_pilar_info{
+        width: 21.875rem;
+        left: 0.625rem;
+        position: absolute;
+        top:0.0625rem;
+    }
+    .img_pilar_cliente{
+        width: 25rem;
+        left: -3.125rem;
+        top: 0rem;
+        position: absolute;
+    }
+    .img_pilar_conocimiento{
+        width: 18.75rem;
+        left: 2.5rem;
+        top: -1.25rem;
+        position: absolute;
+    }
+    .img_pilar_svg {
+        width:8.125rem;
+        right: -2.5rem;
+        bottom: -2.5rem;
+        position: absolute;
+    }
+
+}
+
+.title_cliente {
+    color: #FCA751;
+}
+.title_conocimiento {
+    color: #72CDE2;
+}
+.title_produ{
+    color: #F15D4F;
+}
+.title_info {
+    color: #1B559F;
+}
+.parrafo_modal{
+    font-weight: 600;
+    text-align: justify;
+    font-family: var(--font-franklin);
+}
+
+@media (max-width:700px) {
+    .article_container_grid {
+        background-color: #fafffd2a;    
+        display: grid;
+        max-width: 1200px;
+        grid-template-columns: repeat(12, 1fr);
+        justify-content: center;
+        text-align: center;
+        
+    
+        h1 {
+            color: #303450;
+            text-align: start;
+            padding-left: 0.625rem;
+            grid-column: 1/-1;
+            font-weight: 500;
+            font-size: 2rem;
+        }
+        
+        .container_pilar_info{
+        grid-column: 6/6;
+    
+        .container_info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: #fafffd2a;
+    
+            .img_pilar_circulo {
+                width: 28.125rem;
+                height:  28.125rem;
+                
+            }
+            .img_persona {
+                display: none;
+            }
+        }
+    }
+}
+}
+

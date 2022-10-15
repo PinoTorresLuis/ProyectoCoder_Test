@@ -1,0 +1,161 @@
+.container_btn {
+    position: relative;
+    display: none;
+    visibility: hidden;
+}
+
+.container_show_btn{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    display: block;
+    visibility: visible;
+    bottom: 1.25rem;
+    right: 0.9375rem;
+    opacity: 1;
+    z-index: 100000;
+    transition: .3s ease-in-out all;
+
+ li   {
+    padding-bottom: 2.5rem;
+
+ }
+
+.wp_active {
+    cursor: pointer;
+    width: 5rem;
+    height: 5rem;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
+}
+
+.info_active_btn {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    background-color: #303450;
+    color: white;
+    border-radius: 1.25rem;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    opacity: 1;
+    transition: .4s all;
+    cursor: pointer;
+    outline: 3px solid white;
+    outline-offset: 1px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
+}
+}
+
+.info_active_btn:hover {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    background-color: #494d68;
+    
+}
+
+
+@media (max-width:860px) {
+    .container_btn {
+        position: relative;
+    }
+    
+    .container_show_btn{
+        flex-direction: column;
+        bottom: 1.25rem;
+        right:10px;
+
+
+    .wp_active {
+        cursor: pointer;
+    
+        width: 4rem;
+        height: 4rem;
+        filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
+    }
+    
+    .info_active_btn {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: white;
+        border-radius: 1.25rem;
+        padding: 0.625rem;
+        margin-bottom: 0.625rem;
+        opacity: 1;
+        cursor: pointer;
+        outline: 2px solid white;
+        outline-offset: 2px;
+        filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
+    }
+    
+}
+}
+
+@media (max-width:750px) {
+    .container_btn {
+        position: relative;
+    }
+    
+    .container_show_btn{
+        flex-direction: column;
+        bottom: 0;
+        right:30px;
+        bottom: 0;
+
+    .wp_active {
+    
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .info_active_btn {
+        font-size: 1rem;
+        padding: 0.625rem;
+        margin-bottom: 0.625rem;
+        opacity: 1;
+        cursor: pointer;
+        outline: 2px solid white;
+        outline-offset: 2px;
+        filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
+    }
+    
+}
+}
+
+
+
+@media (max-width:576px) {
+    .container_btn {
+        position: relative;
+    }
+    
+    .container_show_btn{
+        flex-direction: row;
+        bottom: 0;
+        right:1.25rem;
+        align-items: center;
+        justify-content: center;
+            
+    
+
+    .wp_active {
+        cursor: pointer;
+        
+        width: 3rem;
+        height: 3rem;
+        filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
+    }
+    
+    .info_active_btn {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+        opacity: 1;
+        cursor: pointer;
+        outline: 2px solid white;
+        outline-offset: 2px;
+        filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
+    }
+}
+}
