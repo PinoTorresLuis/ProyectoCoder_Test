@@ -22,8 +22,8 @@ const NavBar = () => {
     <>
      <Navbar className='container_navbar'>
         <Container className='container_container'>
-          <Navbar.Brand href="#home">
-            <img className='img-logo' src= {Logo} alt="logo"/>
+          <Navbar.Brand>
+          <a name="Home"><img className='img-logo' src= {Logo} alt="logo"/></a>
           </Navbar.Brand>
           <Nav className="me-end">
             <div className='container_nav_link'>
@@ -34,10 +34,10 @@ const NavBar = () => {
               />
             </Nav.Link> 
             <NavDropdown  id="navbarScrollingDropdown">
-              <NavDropdown.Item  className='drop_container' href="#action3"> 
+              <NavDropdown.Item  className='drop_container'> 
               <button onClick={() => establecerLenguaje('es-ES')}><img className='img_flag' src= {FlagEspain} /></button>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item>
               <button onClick={() => establecerLenguaje('en-US')}><img className='img_flag' src= {FlagUnited}/></button>
               </NavDropdown.Item>
            </NavDropdown>

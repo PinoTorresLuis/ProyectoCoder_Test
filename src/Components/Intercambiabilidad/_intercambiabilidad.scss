@@ -1,31 +1,60 @@
 .socios_texto {
- 
+    grid-column: 2/12;
+    display: grid;
     background-color: white;
- 
-
-    .text_socios_container{
-        grid-column: 6/11;
-
-    h1 {
-        text-align: center;
-        color: #303450;
-        font-family: "JuliaMono";
-    }   
-
-}
-
-p {
-    align-items: end;
     justify-content: center;
-    font-size: 1rem;
-    padding: 10px;
-    text-align: justify;
-    font-weight: 600;
-   
-}
-.img_logo_us{
-    width: 15.625rem;
-    padding-top: 0.625rem;
+    align-items: center;
+    z-index: 2;
+    box-shadow: 1px 14px 12px -3px rgba(133,133,133,0.75);
+    -webkit-box-shadow: 1px 14px 12px -3px rgba(133,133,133,0.75);
+    -moz-box-shadow: 1px 14px 12px -3px rgba(133,133,133,0.75);
 
+    .img_socios {
+        grid-column: 3/5;
+        height: 28.125rem;
+        z-index: 3;
+
+    }
+
+
+    p {
+        grid-column: 6/11;
+        align-items: end;
+        justify-content: center;
+        font-size: 1em;
+        padding: 1.25rem;
+        text-align: center;
+        font-weight: 600;
+    font-family: var(--font-franklin);
+    }
+        .text_socios_container{
+            grid-column: 6/11;
+
+        h1 {
+            text-align: center;
+            color: #303450;
+            font-family: "JuliaMono";
+        }}
+
+        p {
+        align-items: end;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 10px;
+        text-align: justify;
+        font-weight: 600;
+
+        }
+            .img_logo_us{
+            width: 15.625rem;
+            padding-top: 0.625rem;
+            }
+
+    .img_socios_mvp {
+        width: 100%;
+        height: 100%;
+    }
 }
-}
+
+
+

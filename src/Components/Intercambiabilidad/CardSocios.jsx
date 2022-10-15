@@ -10,9 +10,9 @@ const CardSocios = () => {
 
   return (
     <div className='socios_texto'>
-     <motion.img initial = {{y: -5}}
+     <motion.img initial = {{y: -15}}
           animate = {{
-            y:5,
+            y:15,
             transition:{
               duration: 2,
               ease:"easeIn",

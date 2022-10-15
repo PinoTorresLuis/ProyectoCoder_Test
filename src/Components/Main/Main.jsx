@@ -54,7 +54,7 @@ const Main = () => {
       <p>
       <FormattedMessage
               id='main_texto_cliente'
-              defaultMessage="Queremos que te vaya bien, por eso nos enfocamos en que incrementes la cantidad y calidad de tus clientes para que encuentres la libertad económica y financiera."
+              defaultMessage="Queremos que te vaya bien, por eso nos enfocamos en incrementar la cantidad y calidad de tus clientes para que encuentres la libertad económica y financiera."
               />
       </p>
       </div>    
