@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import BtnSolicitar from '../BtnFlotantes/BtnSolicitar'
 import iconoWP from '../../assets/imgWP.png'
 import FlagEspain from '../../assets/Banderas/spain.png';
 import FlagUnited from '../../assets/Banderas/unitedK.png';
@@ -43,6 +44,7 @@ const NavBar = () => {
            </div>
           </Nav>
         </Container>
+        <BtnSolicitar/>
       </Navbar>
       </>
   )

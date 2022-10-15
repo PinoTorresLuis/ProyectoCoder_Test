@@ -1,6 +1,5 @@
 import {BrowserRouter} from 'react-router-dom'
 import About from './Components/About/About'
-import BtnSolicitar from './Components/BtnFlotantes/BtnSolicitar'
 import Footer from './Components/Footer/Footer'
 import Main from './Components/Main/Main'
 import NavBar from './Components/Navbar/NavBar'
@@ -20,7 +19,6 @@ function App() {
             <About/>
             <Pilares/>
             <Footer/>
-            <BtnSolicitar/>
         </div>
 
   </BrowserRouter>

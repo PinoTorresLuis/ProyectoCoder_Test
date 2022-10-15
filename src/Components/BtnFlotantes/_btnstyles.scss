@@ -10,8 +10,8 @@
     flex-direction: column;
     display: block;
     visibility: visible;
-    bottom: 1.25rem;
-    right: 0.9375rem;
+    bottom: 0;
+    right: 0;
     margin-right: 0.625rem;
     opacity: 1;
     z-index: 100000;
@@ -101,7 +101,7 @@
         flex-direction: column;
         bottom: 0;
         right: 0;
-        margin-right:2rem;
+        margin-right:1rem;
         align-items: center;
         justify-content: center;
             
@@ -142,7 +142,7 @@
         flex-direction: column;
         bottom: 0;
         right: 0;
-        margin-right:3rem;
+        margin-right:0.9375rem;
         align-items: center;
         justify-content: center;
             
@@ -155,13 +155,13 @@
     .wp_active {
         cursor: pointer;
         margin-top: 2px;
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
         filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.525));
     }
     
     .info_active_btn {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         letter-spacing: 1px;
         color: white;
         border-radius: 1.25rem;
