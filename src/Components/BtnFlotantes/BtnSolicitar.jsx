@@ -20,7 +20,7 @@ const BtnSolicitar = () => {
     <div className='container_btn'>
 
      <ul className='container_show_btn'>
-      <li><button data-aos="fade-left" className='info_active_btn' onClick={()=> setForm(true)}>
+      <li><button className='info_active_btn' onClick={()=> setForm(true)}>
             <FormattedMessage
             id="pilares.btn"
             defaultMessage= "Solicitar"

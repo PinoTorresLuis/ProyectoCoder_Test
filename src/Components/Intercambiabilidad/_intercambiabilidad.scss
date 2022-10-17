@@ -1,7 +1,7 @@
 .socios_texto {
     grid-column: 2/12;
     display: grid;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.767);
     justify-content: center;
     align-items: center;
     z-index: 2;
@@ -17,18 +17,15 @@
     }
 
 
-    p {
-        grid-column: 6/11;
-        align-items: end;
-        justify-content: center;
-        font-size: 1em;
-        padding: 1.25rem;
-        text-align: center;
-        font-weight: 600;
-    font-family: var(--font-franklin);
-    }
         .text_socios_container{
             grid-column: 6/11;
+            align-items: center;
+            justify-content: center;
+            font-size: 1em;
+            padding: 1.25rem;
+            text-align: center;
+            font-weight: 600;
+             font-family: var(--font-franklin);
 
         h1 {
             text-align: center;
@@ -37,11 +34,11 @@
         }}
 
         p {
-        align-items: end;
+        align-items: center;
         justify-content: center;
         font-size: 1rem;
-        padding: 10px;
-        text-align: justify;
+        padding: 0.9375rem;
+        text-align: center;
         font-weight: 600;
 
         }

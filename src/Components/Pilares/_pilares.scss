@@ -13,6 +13,7 @@
     h1 {
         color: #303450;
         text-align: start;
+        padding-bottom: 0.9375rem;
         padding-left: 0.625rem;
         grid-column: 1/-1;
         font-weight: 500;
@@ -320,7 +321,7 @@ background: #252a50;
             .btn_pilares_produ {
                 padding: 0.625rem;
                 top: 2rem;
-                left: 11rem;
+                left: 10rem;
  
             }
             .btn_pilares_info {
@@ -336,7 +337,7 @@ background: #252a50;
   
             }
             .btn_pilares_cono {
-                right: 11rem;
+                right: 10rem;
                 bottom: 17rem;
 
             }
@@ -361,6 +362,12 @@ background: #252a50;
         justify-content: center;
         text-align: center;
         
+
+        h1 {
+            text-align: center;
+            padding-left: 0;
+            margin-bottom: 2.5rem;
+        }
         
         .container_pilar_info{
         grid-column: 6/6;
@@ -375,8 +382,8 @@ background: #252a50;
     
 
             .btn_pilares_cono {
-                right: 11rem;
-                bottom: 16.5rem;
+                right: 10rem;
+                bottom: 14.5rem;
 
             }
         }
