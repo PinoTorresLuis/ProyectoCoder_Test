@@ -28,7 +28,7 @@ const NavBar = () => {
           <Nav className="me-end">
             <div className='container_nav_link'>
             <Nav.Link className='text_nav' href="https://wa.me/+34635282005?texto=Hola%20IT%20Work%20necesito%20información"><img className='wp_logo' src= {iconoWP} alt=""/>Whatsapp</Nav.Link>
-            <Nav.Link  className='text_nav'><FormattedMessage
+            <Nav.Link  className='text_nav_idioma'><FormattedMessage
               id='idioma.texto'
               defaultMessage="Idioma"
               />

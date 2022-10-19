@@ -47,9 +47,9 @@ const Footer = () => {
          </div>
          
       <div className='footer_copyrigth'>
-      <p>Privacidad</p>
+
       <p>Política de datos</p>
-      <p>Cookies</p>
+
 
       </div>
        

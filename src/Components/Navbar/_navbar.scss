@@ -22,7 +22,12 @@
         font-weight: 500;
         font-family: "JuliaMono";
 
-    }}
+    }
+   }
+   .text_nav_idioma {
+    display: none;
+    }
+   
 
     .wp_logo {
         width: 1.875rem;
@@ -39,8 +44,9 @@
         justify-content: start;
         text-align: start;
         font-family: "JuliaMono";
-        
+        display: none;
     }
+    
 }
 
 
@@ -106,9 +112,6 @@
 
     }}
 
-    .wp_logo {
-        display: none;
-    }
     }
     #navbarScrollingDropdown {
         color: #1B559F;

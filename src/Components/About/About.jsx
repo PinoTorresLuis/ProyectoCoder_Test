@@ -18,30 +18,33 @@ const About = () => {
 
   return (
     <div className='section_container_grid'>
-      <div data-aos="fade-right" className='class_title_h1'>
-   {  show === false ? <h1 className='title_about' onClick={handleShow}>
+     {  show === false ? 
+          <div data-aos="fade-right" className='class_title_h1' onClick={handleShow}>
+          <h1 className='title_about'>
           <FormattedMessage
           id="about.us"
           defaultMessage= "Nosotros"
           />
         </h1>
+        </div>
         :
-        <h2 className='title_about' onClick={handleClose}>
+        <div data-aos="fade-right" className='class_title_h1' onClick={handleClose}>
+        <h2 className='title_about'>
           <FormattedMessage
           id="about.btn_history"
           defaultMessage= "Historia"
           />
         </h2>
+        </div>
         }
 
-      </div>
        { show === false && <CardSocios/> }
        { show === true && <CardUs/>}
        { (position === 1 && show === 2) && <CardMVP/> }
      
 
-      <div data-aos="fade-left" className='class_title_h2'>  
-        <h3 className='title_about' onClick={handleChange}>
+      <div data-aos="fade-left" className='class_title_h2' onClick={handleChange}>  
+        <h3 className='title_about'>
           <FormattedMessage   
           id="about.mvp"
           defaultMessage= "MVP"
