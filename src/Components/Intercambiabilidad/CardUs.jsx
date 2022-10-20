@@ -1,6 +1,6 @@
 import React from 'react';
 import Cohete from '../../assets/Personas/personas_cohete.png'
-import LogoIt from '../../assets/Logo.png';
+import LogoIt from '../../assets/LogosNavFondo/Logo.png';
 import {motion} from 'framer-motion';
 
 import {FormattedMessage} from 'react-intl';

@@ -3,7 +3,7 @@
     margin: 0 auto;
     max-width: 75rem;
     background-color: rgb(255, 255, 255);
-    margin-bottom: 12.5rem;
+    margin-bottom: 10rem;
 
     .carousel-control-prev{
         display: flex;
@@ -137,27 +137,26 @@
 
 @media (max-width:576px) {
     .main_container {
-        background-color: rgb(255, 255, 255);
         width: 100%;
-        margin-bottom: 8rem;            
+        margin-bottom: 7rem;
         .d-block{
+            height: 19rem;
             width: 100%;
-            height: 23rem;
         }
 
         .container_texto {
             position: absolute;
-            top: 0.1rem;
+            top: 1rem;
             left: 1.5rem;      
               
             .titulo_conocimiento {
-                font-size: 1.1rem;
-                padding-top: 1.3rem;
+                font-size: 1rem;
+                padding-top: 1rem;
                 padding-bottom: 0.2rem;
                 font-weight: 600;
             }  
             p {
-                font-size: 1rem;
+                font-size: 0.8rem;
                 font-weight: 500;
               }
         

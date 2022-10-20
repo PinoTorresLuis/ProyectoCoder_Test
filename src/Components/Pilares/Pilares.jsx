@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import {FormattedMessage} from 'react-intl';
 import {motion} from 'framer-motion';
 
-import pilar from '../../assets/circulo virtuoso 1.png';
-import persona from '../../assets/Carrousel/img_persona.png';
+import persona from '../../assets/IconosPilar/img_persona.png';
+import pilar from '../../assets/IconosPilar/circulo virtuoso 1.png'
 
 import ModalProductividad from './ModalProductividad';
 import ModalInfo from './ModalInfo';

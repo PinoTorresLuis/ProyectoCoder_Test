@@ -1,16 +1,18 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import BtnSolicitar from '../BtnFlotantes/BtnSolicitar'
-import iconoWP from '../../assets/imgWP.png'
-import FlagEspain from '../../assets/Banderas/spain.png';
-import FlagUnited from '../../assets/Banderas/unitedK.png';
 import React, { useContext} from 'react';
 import {FormattedMessage} from 'react-intl';
 import { LangContext } from '../Context/langContext';
 
-import Logo from '../../assets/Logo.png';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
+import iconoWP from '../../assets/LogosNavFondo/imgWP.png';
+import FlagEspain from '../../assets/Banderas/spain.png';
+import FlagUnited from '../../assets/Banderas/unitedK.png';
+import Logo from '../../assets/LogosNavFondo/Logo.png';
+
+import BtnSolicitar from '../BtnFlotantes/BtnSolicitar';
 
 import './_navbar.scss';
 
@@ -23,7 +25,7 @@ const NavBar = () => {
      <Navbar className='container_navbar'>
         <Container className='container_container'>
           <Navbar.Brand>
-          <a name="Home"><img className='img-logo' src= {Logo} alt="logo"/></a>
+          <a href='https://www.itwork.digital'><img className='img-logo' src= {Logo} alt="logo"/></a>
           </Navbar.Brand>
           <Nav className="me-end">
             <div className='container_nav_link'>

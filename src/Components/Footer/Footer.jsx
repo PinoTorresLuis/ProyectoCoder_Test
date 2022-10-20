@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {FormattedMessage} from 'react-intl';
 
-import LogoFooter from '../../assets/LogoFooter.png';
+import LogoFooter from '../../assets/LogosNavFondo/LogoFooter.png';
 import Phone from '../../assets/Iconos footer/Phone.png';
 import Email from '../../assets/Iconos footer/Email.png';
 import Instagram from '../../assets/Iconos footer/Instagram.png';
 import Whatsapp from '../../assets/Iconos footer/Whatsapp.png';
 import Facebook from '../../assets/Iconos footer/Facebook.png';
-import {FormattedMessage} from 'react-intl';
+
 
 import './_footer.scss';
 
@@ -37,18 +37,18 @@ const Footer = () => {
          </div>
 
          <div className='footer_redes'>
-         <a className='a_link' href="https://www.facebook.com/Itwork.digital"><i className='i_redes_img'><img className='icono_footer' src= {Instagram}/>ITwork.digital</i></a>
+         <a className='a_link' href="https://www.instagram.com/itwork.digital/"><i className='i_redes_img'><img className='icono_footer' src= {Instagram}/>ITwork.digital</i></a>
          <a className='a_link' href="https://www.facebook.com/Itwork.digital"><i className='i_redes_img'><img className='icono_footer' src= {Facebook}/>www.facebook.com/Itwork.digital</i></a>           
          <a className='a_link' href='https://wa.me/+34635282005?texto=Hola%20IT%20Work%20necesito%20información'><i className='i_redes_img'><img className='icono_footer' src= {Whatsapp}/>+34 635282005</i></a>
          </div>
          </div>
          <div className='footer_logo'>
-            <i><a href='#Home'><img className='img_logo' src= {LogoFooter} alt=""/></a></i> 
+            <i><a href='https://www.itwork.digital'><img className='img_logo' src= {LogoFooter} alt=""/></a></i> 
          </div>
          
       <div className='footer_copyrigth'>
-
-      <p>Política de datos</p>
+  
+      <a className='a_link' href='https://www.itwork.digital/privacidad'><i className='texto_politica'>Política de Datos</i></a>
 
 
       </div>

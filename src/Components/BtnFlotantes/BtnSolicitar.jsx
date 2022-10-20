@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-
 import {FormattedMessage} from 'react-intl';
 
-import wplogo from '../../assets/whatssAppLogo.png'
 import Formulario from '../Pilares/Formulario';
+
+import wplogo from '../../assets/LogosNavFondo/whatssAppLogo.png';
 
 import './_btnstyles.scss';
 
