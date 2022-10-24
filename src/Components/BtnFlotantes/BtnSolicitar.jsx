@@ -27,7 +27,7 @@ const BtnSolicitar = () => {
             />
           </button>
       </li>
-      <li><a className='a_link' href="https://wa.me/+34635282005?texto=Hola%20IT%20Work%20necesito%20información"><img  data-aos="fade-left" className='wp_active' src={wplogo}/></a></li>
+      <li><a className='a_link' href="https://wa.me/+34635282005?texto=Hola%20IT%20Work%20necesito%20información"><img className='wp_active' src={wplogo}/></a></li>
     </ul>
     <Formulario show={form} onHide={()=>setForm(false)} />
     
